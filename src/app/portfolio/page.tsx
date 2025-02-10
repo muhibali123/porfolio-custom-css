@@ -1,5 +1,8 @@
 import '../portfolio/portfolio.css'
-
+import Image from 'next/image';
+import portfolio from "../../../public/images/myportfoliopic.png"
+import portfolio_pic2 from "../../../public/images/p2.png"
+import portfolio_pic3 from "../../../public/images/p3.png"
 
 export default function PortfolioSection() {
   return (
@@ -15,11 +18,7 @@ export default function PortfolioSection() {
           {/* Portfolio Item 1 */}
           <div className="portfolio-item">
             <div className="image-container">
-              <img
-                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/84a3eb212444479.6734ed929e730.png"
-                alt="Feature tailwind section"
-                className="portfolio-image"
-              />
+              <Image src={portfolio} width={400} height={275} alt='portfolio image' className='portfolio-image'></Image>
             </div>
             <div className="content">
               <div className="flex-container">
@@ -51,11 +50,8 @@ export default function PortfolioSection() {
           {/* Portfolio Item 2 */}
           <div className="portfolio-item">
             <div className="image-container">
-              <img
-                src="https://website-builderx-assets.s3.ap-south-1.amazonaws.com/Image_60722bc0d4_d062808397.png?updated_at=2024-11-13T18:24:02.075Z"
-                alt="Feature tailwind section"
-                className="portfolio-image"
-              />
+              <Image src={portfolio_pic2} width={400} height={275} alt='portfolio-image'>
+              </Image>
             </div>
             <div className="content">
               <div className="flex-container">
@@ -87,11 +83,8 @@ export default function PortfolioSection() {
           {/* Portfolio Item 3 */}
           <div className="portfolio-item">
             <div className="image-container">
-              <img
-                src="https://website-builderx-assets.s3.ap-south-1.amazonaws.com/Image_a99128c240_068101d94f.png?updated_at=2024-11-13T18:24:02.162Z"
-                alt="Feature tailwind section"
-                className="portfolio-image"
-              />
+              <Image src={portfolio_pic3} width={400} height={275} alt='portfolio-image' >
+              </Image>
             </div>
             <div className="content">
               <div className="flex-container">
@@ -119,7 +112,7 @@ export default function PortfolioSection() {
               </p>
             </div>
           </div>
-        </div>
+        </div>     
       </div>
     </section>
   );

@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className="navbar-inner">
           {/* Name Instead of Logo */}
           <div className="navbar-logo">
-            <a href="/" className="navbar-logo-link">
+            <a href="#" className="navbar-logo-link">
               <h1 className="navbar-name">Muhib Siddiqui</h1> {/* Full Name */}
               {/* <h1 className="navbar-name">MS</h1> */} {/* Short Name */}
             </a>
@@ -62,23 +62,23 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <div className="navbar-desktop-menu">
-            <a href="/" className="navbar-menu-item">
+            <a href="#" className="navbar-menu-item">
               Home
             </a>
-            <a href="/" className="navbar-menu-item">
+            <a href="#" className="navbar-menu-item">
               Portfolio
             </a>
-            <a href="/" className="navbar-menu-item">
+            <a href="#" className="navbar-menu-item">
               About me
             </a>
-            <a href="/" className="navbar-menu-item">
+            <a href="#" className="navbar-menu-item">
               Testimonials
             </a>
           </div>
 
           {/* Desktop Hire Me Button */}
           <nav className="navbar-hire-me">
-            <a href="/" className="navbar-hire-button">
+            <a href="#" className="navbar-hire-button">
               Hire Me
             </a>
           </nav>
@@ -88,16 +88,16 @@ export default function Navbar() {
         <nav className={`navbar-mobile-menu ${expanded ? 'expanded' : ''}`}>
           <div className="navbar-mobile-container">
             <div className="navbar-mobile-links">
-              <a href="/" className="navbar-mobile-item">
+              <a href="#" className="navbar-mobile-item">
                 Features
               </a>
-              <a href="/" className="navbar-mobile-item">
+              <a href="#" className="navbar-mobile-item">
                 Pricing
               </a>
-              <a href="/" className="navbar-mobile-item">
+              <a href="#" className="navbar-mobile-item">
                 Support
               </a>
-              <a href="/" className="navbar-hire-button">
+              <a href="#" className="navbar-hire-button">
                 Hire Me
               </a>
             </div>

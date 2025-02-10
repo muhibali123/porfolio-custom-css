@@ -1,4 +1,8 @@
 import "../testimonial/testimonial.css"
+import Image from "next/image";
+import t1 from "../../../public/images/t1.png"
+import t2 from "../../../public/images/t2.png"
+import t3 from "../../../public/images/t3.png"
 
 export default function TestimonialsSection() {
   return (
@@ -43,12 +47,9 @@ export default function TestimonialsSection() {
                   </div>
 
                   {/* Testimonial Author */}
-                  <div className="testimonial-author">
-                    <img
-                      className="author-avatar"
-                      src="https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-1.png"
-                      alt="Leslie Alexander"
-                    />
+                  <div className="testimonial-author">  
+                    <Image src={t1} width={44} height={44} alt="lesile alexander">
+                    </Image>
                     <div className="author-info">
                       <p className="author-name">Leslie Alexander</p>
                       <p className="author-role">Freelance React Developer</p>
@@ -79,18 +80,15 @@ export default function TestimonialsSection() {
                     {/* Testimonial Text */}
                     <blockquote className="testimonial-text">
                       <p>
-                        “Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced users.”
+                        “Simply the best. Better than all the rest. I'd recommend this product to beginners and advanced users.”
                       </p>
                     </blockquote>
                   </div>
 
                   {/* Testimonial Author */}
                   <div className="testimonial-author">
-                    <img
-                      className="author-avatar"
-                      src="https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-2.png"
-                      alt="Jacob Jones"
-                    />
+                    <Image src={t2} width={44} height={44} alt="lesile alexander">
+                    </Image>
                     <div className="author-info">
                       <p className="author-name">Jacob Jones</p>
                       <p className="author-role">Digital Marketer</p>
@@ -128,11 +126,7 @@ export default function TestimonialsSection() {
 
                   {/* Testimonial Author */}
                   <div className="testimonial-author">
-                    <img
-                      className="author-avatar"
-                      src="https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-female.png"
-                      alt="Jenny Wilson"
-                    />
+                    <Image src={t3} width={44} height={44} alt="lesile alexander"></Image>
                     <div className="author-info">
                       <p className="author-name">Jenny Wilson</p>
                       <p className="author-role">Graphic Designer</p>
