@@ -41,7 +41,7 @@ export default function TestimonialsSection() {
                     {/* Testimonial Text */}
                     <blockquote className="testimonial-text">
                       <p>
-                        “You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change.”
+                        &ldquo;You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change.&rdquo;
                       </p>
                     </blockquote>
                   </div>
@@ -80,7 +80,7 @@ export default function TestimonialsSection() {
                     {/* Testimonial Text */}
                     <blockquote className="testimonial-text">
                       <p>
-                        “Simply the best. Better than all the rest. I'd recommend this product to beginners and advanced users.”
+                        &ldquo;Simply the best. Better than all the rest. I&apos;d recommend this product to beginners and advanced users.&rdquo;
                       </p>
                     </blockquote>
                   </div>
@@ -119,7 +119,7 @@ export default function TestimonialsSection() {
                     {/* Testimonial Text */}
                     <blockquote className="testimonial-text">
                       <p>
-                        “I cannot believe that I have got a brand new landing page after getting Omega. It was super easy to edit and publish.”
+                        &ldquo;I cannot believe that I have got a brand new landing page after getting Omega. It was super easy to edit and publish.&rdquo;
                       </p>
                     </blockquote>
                   </div>
