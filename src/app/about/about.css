@@ -1,0 +1,166 @@
+.about-section {
+    background-color: #e0e7ff; /* bg-indigo-50 */
+    height: 100vh;
+    position: relative;
+    padding-top: 3.5rem; /* py-14 */
+    padding-bottom: 6rem; /* lg:pt-30 lg:pb-24 */
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 80rem; /* max-w-7xl */
+    margin: 0 auto;
+    padding: 0 1rem; /* px-4 */
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem; /* gap-16 */
+  }
+  
+  @media (min-width: 1024px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr); /* lg:grid-cols-2 */
+      gap: 7rem; /* xl:gap-28 */
+    }
+  }
+  
+  .image-section {
+    order: 1; /* max-lg:order-last */
+  }
+  
+  .image-section img {
+    border-radius: 1.5rem; /* rounded-3xl */
+  }
+  
+  .content-section {
+    display: flex;
+    align-items: center;
+    order: 2;
+    width: 100%;
+    max-width: 42rem; /* max-lg:max-w-xl */
+    margin: 0 auto;
+  }
+  
+  .heading {
+    font-family: 'Inter', sans-serif; /* font-inter */
+    font-weight: 800; /* font-extrabold */
+    font-size: 2.25rem; /* text-4xl */
+    line-height: 1.2; /* leading-[1.2] */
+    color: #1a1a1a; /* text-gray-900 */
+    margin-bottom: 1.75rem; /* mb-7 */
+  }
+  
+  @media (max-width: 450px) {
+    .heading {
+      text-align: center; /* max-[450px]:text-center */
+    }
+  }
+  
+  .paragraph {
+    margin-top: 0.5rem; /* mt-2 */
+    margin-bottom: 2.5rem; /* mb-10 */
+    font-size: 1.125rem; /* text-lg */
+    color: #4b5563; /* text-gray-600 */
+    font-family: 'Inter', sans-serif; /* font-inter */
+  }
+  
+  @media (min-width: 640px) {
+    .paragraph {
+      margin-top: 2rem; /* sm:mt-8 */
+    }
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem; /* gap-5 */
+    margin-bottom: 2rem; /* mb-8 */
+    margin-top: 0.75rem; /* mt-3 */
+  }
+  
+  @media (min-width: 450px) {
+    .buttons {
+      flex-direction: row; /* min-[450px]:flex-row */
+    }
+  }
+  
+  .button-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1.5rem; /* px-6 py-2 */
+    font-size: 1rem; /* text-base */
+    font-weight: 700; /* font-bold */
+    line-height: 1.75rem; /* leading-7 */
+    color: #ffffff; /* text-white */
+    background-color: #4f46e5; /* bg-indigo-600 */
+    border: 2px solid #4f46e5; /* border-2 border-indigo-600 */
+    border-radius: 0.5rem; /* rounded-lg */
+    transition: all 0.2s ease-in-out; /* transition-all duration-200 */
+    text-decoration: none;
+  }
+  
+  .button-primary:hover {
+    background-color: #4338ca; /* hover:bg-indigo-700 */
+    border-color: #4338ca; /* hover:border-indigo-700 */
+  }
+  
+  .button-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1.5rem; /* px-6 py-2 */
+    font-size: 1rem; /* text-base */
+    font-weight: 700; /* font-bold */
+    line-height: 1.75rem; /* leading-7 */
+    color: #4f46e5; /* text-indigo-600 */
+    background-color: #ffffff; /* bg-white */
+    border: 2px solid #4f46e5; /* border-2 border-indigo-600 */
+    border-radius: 0.5rem; /* rounded-lg */
+    transition: all 0.2s ease-in-out; /* transition-all duration-200 */
+    text-decoration: none;
+  }
+  
+  .button-secondary:hover {
+    background-color: #e0e7ff; /* hover:bg-indigo-50 */
+    border-color: #4338ca; /* hover:border-indigo-700 */
+  }
+  
+  .stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem; /* gap-8 */
+  }
+  
+  @media (min-width: 450px) {
+    .stats {
+      flex-direction: row; /* min-[450px]:flex-row */
+      gap: 7rem; /* min-[450px]:gap-28 */
+    }
+  }
+  
+  .stat-heading {
+    font-family: 'Inter', sans-serif; /* font-inter */
+    font-weight: 800; /* font-extrabold */
+    font-size: 1.5rem; /* text-2xl */
+    line-height: 2.25rem; /* leading-9 */
+    color: #374151; /* text-gray-700 */
+    margin-bottom: 0.5rem; /* mb-2 */
+  }
+  
+  .stat-text {
+    font-size: 1rem; /* text-base */
+    font-weight: 400; /* font-normal */
+    color: #6b7280; /* text-gray-500 */
+  }
+  
+  @media (max-width: 450px) {
+    .stat-heading,
+    .stat-text {
+      text-align: center; /* max-[450px]:text-center */
+    }
+  }

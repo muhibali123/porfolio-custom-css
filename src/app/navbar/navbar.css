@@ -1,0 +1,140 @@
+/* General Styles */
+.navbar-header {
+    padding: 1rem ;
+    background-color: white;
+  }
+  
+  .navbar-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .navbar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Logo Section */
+  .navbar-logo-link {
+    display: flex;
+    text-decoration: none;
+  }
+  
+  .navbar-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1a1a1a;
+  }
+  
+  /* Mobile Toggle Button (Hidden on Desktop) */
+  .navbar-mobile-toggle {
+    display: none; /* Hidden by default */
+  }
+  
+  @media (max-width: 1023px) {
+    .navbar-mobile-toggle {
+      display: flex; /* Show on mobile */
+    }
+  }
+  
+  .navbar-toggle-button {
+    color: #1a1a1a;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .navbar-toggle-icon {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+  
+  /* Desktop Menu (Hidden on Mobile) */
+  .navbar-desktop-menu {
+    display: none; /* Hidden by default */
+  }
+  
+  @media (min-width: 1024px) {
+    .navbar-desktop-menu {
+      display: flex; /* Show on desktop */
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+  
+  .navbar-menu-item {
+    padding: 0.625rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #1a1a1a;
+    text-decoration: none;
+    border-radius: 9999px;
+    transition: background-color 0.2s;
+  }
+  
+  .navbar-menu-item:hover {
+    background-color: #f3f4f6;
+  }
+  
+  /* Hire Me Button (Hidden on Mobile) */
+  .navbar-hire-me {
+    display: none; /* Hidden by default */
+  }
+  
+  @media (min-width: 1024px) {
+    .navbar-hire-me {
+      display: block; /* Show on desktop */
+    }
+  }
+  
+  .navbar-hire-button {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #1a1a1a;
+    border-radius: 9999px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+  }
+  
+  .navbar-hire-button:hover {
+    background-color: #4b5563;
+  }
+  
+  /* Mobile Menu (Hidden by Default) */
+  .navbar-mobile-menu {
+    display: none; /* Hidden by default */
+    padding: 2rem 0;
+  }
+  
+  @media (max-width: 1023px) {
+    .navbar-mobile-menu.expanded {
+      display: block; /* Show when expanded on mobile */
+    }
+  }
+  
+  .navbar-mobile-container {
+    padding: 0 0.25rem;
+  }
+  
+  .navbar-mobile-links {
+    display: grid;
+    gap: 1.75rem;
+  }
+  
+  .navbar-mobile-item {
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #1a1a1a;
+    text-decoration: none;
+    border-radius: 0.375rem;
+    transition: background-color 0.2s;
+  }
+  
+  .navbar-mobile-item:hover {
+    background-color: #f9fafb;
+  }

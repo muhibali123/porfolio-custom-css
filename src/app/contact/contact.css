@@ -1,0 +1,174 @@
+
+.contact-section {
+  padding: 40px 0;
+  background: white;
+}
+
+.section-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.section-heading {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-subtitle {
+  margin: 0;
+  font-size: 1rem;
+  color: #6b7280;
+}
+
+.section-title {
+  margin: 16px 0;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.section-description {
+  margin: 16px auto;
+  color: #6b7280;
+  max-width: 560px;
+  font-size: 1rem;
+}
+
+.contact-form-container {
+  max-width: 1040px;
+  margin: 40px auto 0;
+}
+
+.form-wrapper {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.form-inner {
+  padding: 24px;
+}
+
+.form-grid {
+  display: grid;
+  gap: 16px 20px;
+  grid-template-columns: 1fr;
+}
+
+.form-group {
+  margin-bottom: 8px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #6366f1;
+  border-radius: 6px;
+  background: white;
+  font-size: 16px;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #4338ca;
+}
+
+.select-container {
+  position: relative;
+}
+
+.form-select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #6366f1;
+  border-radius: 6px;
+  appearance: none;
+  background: white;
+  font-size: 16px;
+}
+
+.select-arrow {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.dropdown-arrow {
+  width: 20px;
+  height: 20px;
+  color: #6366f1;
+}
+
+.form-textarea {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #6366f1;
+  border-radius: 6px;
+  resize: vertical;
+  min-height: 150px;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.checkbox-group input {
+  margin-right: 8px;
+  
+}
+
+.submit-button {
+  padding: 12px 24px;
+  background: #111827;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+  transition:  0.3s ease;
+}
+
+.submit-button:hover {
+  background: #4b5563;
+}
+
+@media (min-width: 640px) {
+  .form-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .full-width {
+    grid-column: 1 / -1;
+  }
+  
+  .contact-section {
+    padding: 60px 0;
+  }
+  
+  .form-inner {
+    padding: 48px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-container {
+    padding: 0 32px;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+  }
+}
